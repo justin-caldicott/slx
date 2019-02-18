@@ -1,0 +1,40 @@
+{
+  "name": "slx",
+  "version": "0.0.1",
+  "description": "execute commands against a temporary serverless stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js",
+    "slx": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-caldicott/slx.git"
+  },
+  "keywords": [],
+  "author": "Justin Caldicott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justin-caldicott/slx/issues"
+  },
+  "homepage": "https://github.com/justin-caldicott/slx#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "npm-run": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0",
+    "serverless": "^1.37.1"
+  },
+  "peerDependencies": {
+    "serverless": "^1.37.1"
+  },
+  "engines": {
+    "node": "^8.10.0"
+  }
+}

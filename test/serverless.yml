@@ -1,0 +1,6 @@
+service: lambda-hello
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
