@@ -6,6 +6,7 @@ program
   .parse(process.argv);
 
 const run = (command, args, options = {}) => {
+  // TODO: return promise and use async
   const child = npmRun.spawn(
     `${command}.cmd`, // TODO: cmd on windows, otherwise without.  Not sure why this is an issue now.
     args.split(' '),
