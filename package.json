@@ -21,7 +21,8 @@
   "homepage": "https://github.com/justin-caldicott/slx#readme",
   "dependencies": {
     "commander": "^2.19.0",
-    "npm-run": "^5.0.1"
+    "npm-run": "^5.0.1",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "eslint": "^5.14.1",

@@ -1,6 +1,10 @@
 service: lambda-hello
 
+custom:
+  stage: ${opt:stage, self:provider.stage}
+
 provider:
   name: aws
   runtime: nodejs8.10
   region: eu-west-2
+  stage: dev
